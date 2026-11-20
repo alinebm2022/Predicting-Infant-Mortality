@@ -226,5 +226,8 @@ __marimo__/
 outputs/
 
 # Bases originais DATASUS, mantidas localmente e não versionadas
-
 data/raw/*.csv
+
+# Bases de linkage são geradas novamente pelos scripts
+data/processed/*
+!data/processed/.gitkeep

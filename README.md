@@ -18,3 +18,18 @@ O script seleciona as colunas definidas em `src/config.py` e grava
 `data/reduzidas/vivos.csv` e `data/reduzidas/mortos.csv`. Os arquivos reduzidos
 podem ser versionados; o relatório da execução é gravado em
 `outputs/reducao_bases.txt`, pasta ignorada pelo Git.
+
+## Linkage determinístico
+
+Depois de gerar as bases reduzidas, execute o linkage com:
+
+```powershell
+python scripts/03_linkage_deterministico.py
+```
+
+O resultado é gravado em `data/processed/linkage_deterministico.csv`. Para
+executar os testes automatizados:
+
+```powershell
+python -m pytest
+```

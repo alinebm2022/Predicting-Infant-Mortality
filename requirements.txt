@@ -7,3 +7,4 @@ recordlinkage
 matplotlib
 joblib
 streamlit
+pytest
