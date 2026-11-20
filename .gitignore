@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arquivos temporários gerados durante a análise
+outputs/
+
+# Bases originais DATASUS, mantidas localmente e não versionadas
+
+data/raw/*.csv
